@@ -8,3 +8,8 @@ steps:
 
 images:
   - 'gcr.io/$prj-trail/prime-app'
+
+options:
+  build:
+    service_account: [YOUR_SERVICE_ACCOUNT_EMAIL]
+    logs_bucket: [YOUR_LOGS_BUCKET_NAME]
